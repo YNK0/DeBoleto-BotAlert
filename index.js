@@ -4,7 +4,6 @@ require("dotenv").config();
 
 const EMAIL = process.env.EMAIL;
 const URL = process.env.URL;
-const timeOut = process.env.TIMEOUT;
 
 (async () => {
   const browser = await chromium.launch();
@@ -21,7 +20,7 @@ const timeOut = process.env.TIMEOUT;
     const button = await page.$(".disabled");
     if (button) {
       console.log("No hay boletos disponibles");
-      await page.waitForTimeout(timeOut);
+      await page.waitForTimeout(10000);
     } else {
       console.log("Hay boletos disponibles");
       await page.screenshot({ path: "BoletosDisponibles.png" });
