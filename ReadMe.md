@@ -1,6 +1,6 @@
 # Alerta de Boletos Disponibles
 
-Este script en Node.js utiliza Playwright para verificar la disponibilidad de boletos en una página web y envía una alerta por correo electrónico si los boletos están disponibles.
+Este script en Node.js utiliza Playwright para verificar la disponibilidad de boletos en la pagina web https://deboleto.mx/ y envía una alerta por correo electrónico si los boletos están disponibles.
 
 ## Configuración
 
