@@ -18,15 +18,13 @@ Crea un archivo `.env` en la raíz del proyecto con las siguientes variables de 
 
 EMAIL=correo@gmail.com
 URL=https://ejemplo.com
-TIMEOUT=60000
 EMAIL_ALERT=correo_alerta@hotmail.com
 PASSWORD_ALERT=contraseña_alerta
 
-`EMAIL`: Tu dirección de correo electrónico para recibir alertas.
-`URL`: La URL del sitio web que deseas verificar (Solo funciona en la pagina deboleto.mx).
-`TIMEOUT`: El tiempo de espera (en milisegundos) entre verificaciones de disponibilidad de boletos.
-`EMAIL_ALERT`: Tu dirección de correo electrónico para enviar las alertas.
-`PASSWORD_ALERT`: La contraseña asociada con el correo electrónico para enviar las alertas.
+1. `EMAIL`: Tu dirección de correo electrónico para recibir alertas.
+2. `URL`: La URL del sitio web que deseas verificar (Solo funciona en la pagina deboleto.mx).
+3. `EMAIL_ALERT`: Tu dirección de correo electrónico para enviar las alertas.
+4. `PASSWORD_ALERT`: La contraseña asociada con el correo electrónico para enviar las alertas.
 
 ## Uso
 
